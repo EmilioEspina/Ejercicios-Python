@@ -12,5 +12,6 @@ if entrada_minus == "si":
 
 if tengo_swag == True:
     print("swagger")
+    print("si la afip pregunta, tu gasta")
 else:
     print("nabo")    
