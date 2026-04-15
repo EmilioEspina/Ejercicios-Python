@@ -1,11 +1,16 @@
 tengo_swag = True
 
 
-entrada = input("Pantalon chupin si o no: ")
+entrada = str(input("Pantalon chupin si o no: "))
 
-entrada_minus = entrada.lower
+entrada.lower
+
+entrada_minus = entrada
+
 if entrada_minus == "si":
     tengo_swag = False
 
 if tengo_swag == True:
     print("swagger")
+else:
+    print("nabo")    
